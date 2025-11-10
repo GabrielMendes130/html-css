@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+        @font-face {
+            font-family: 'Minha Fonte';
+            src: url('littlebird.ttf');
+        }
+        body {
+            font-size: 15pt;
+        }
+
+        h2 {
+            font-weight: normal; /* serve para tirar o negrito dos títulos */
+        }
+
+        h2#padrao {
+            font-family: Arial, Helvetica, sans-serif; /* O navegador vai tentar carregar a primeira, se não funcionar, passa pra próxima */
+        }
+
+        h2#google {
+            font-family: 'Pacifico', cursive; /* A importação dessa fonte aconteceu na linha 8 */
+        }
