@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif; 
+        } 
+        iframe#tela{
+            width: 95vw;  
+            height: 400px;
+            border : 2px solid black 
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis aut vel itaque delectus? Temporibus necessitatibus dolor cumque, vitae veritatis quae eveniet repudiandae sint dolore ipsa aliquid beatae velit. Repudiandae, sunt.</p>
+    
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+    
+    
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere placeat quo esse voluptas harum doloremque quis nesciunt labore. Eius, aliquid. Libero omnis velit placeat ratione corporis doloribus reprehenderit, hic beatae. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus perspiciatis quisquam aspernatur tempore molestias optio ab repellendus ducimus molestiae veniam. Ipsam, quaerat earum repellat suscipit est doloribus consequuntur iure incidunt.</p> 
+
+    <iframe id="tela" name="frame" srcdoc="<h1> Escolha uma das opções acima </h1> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus perspiciatis quisquam aspernatur tempore molestias optio ab repellendus ducimus molestiae veniam. Ipsam, quaerat earum repellat suscipit est doloribus consequuntur iure incidunt.</p> <img src='imagens/logo.png'>">
+        <p>Infelizmente seu navegador não é compatível com iframes!</p> 
+    </iframe> 
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, deleniti? Temporibus repellendus hic enim ea delectus commodi molestias ratione, ad distinctio. Totam non voluptas quia quidem est vel soluta consequatur?</p>
+</body>
+</html>
