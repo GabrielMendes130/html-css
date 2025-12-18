@@ -16,7 +16,7 @@ header h1{
     padding: 10px;
     text-align: center;
 } 
-i#burger{
+i#burguer{
     background-color: rgb(48, 48, 48);
     color: white;
     display: block;
@@ -24,7 +24,7 @@ i#burger{
     padding: 10px;
     cursor: pointer;
 } 
-i#burger:hover{
+i#burguer:hover{
   background-color: white;
   color: black;
 }
